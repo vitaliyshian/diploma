@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Full Width Pics - Start Bootstrap Template</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/full-width-pics.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Full Width Image Header with Logo -->
+    <!-- Image backgrounds are set within the full-width-pics.css file. -->
+    <header class="image-bg-fluid-height">
+        <div class="radio">
+            <div class="player">
+                <audio id="player"></audio>
+                <div class="top_panel">
+                    <img src="images/headphones.svg" width="38">
+                    <div class="title">
+                        <h2>Internet Radio</h2>
+                        <span>advanced media player</span>
+                    </div>
+                </div>
+                <div class="panel_controls">
+                    <div class="info">
+                        <img src="images/images4.jpg">
+                        <p>Выбирете радиостанцию</p>
+                        <!-- картинка, название песни, время, другая инфа-->
+                    </div>
+                    <div class="controls">
+                        <div class="play_button">
+                            <div class="icon play"></div>
+                        </div>
+                        <input id="vol" type="range" min="0" max="100" step="1" value="50" name="vol">
+                        <!-- кнопка play, громкость -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="play_list">
+                <table>
+                    <thead>
+                        <tr class="col_table">
+                            <td class="name_tab">Имя</td>
+                            <td class="genres">Жанр</td>
+                            <td class="countries">Страна</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-src="http://online-hitfm.tavrmedia.ua/HitFM" data-img="thumbs/images (4).jpg">
+                            <td class="name_tab">Хит FM</td>
+                            <td class="genres">POP</td>
+                            <td class="countries">Украина</td>
+                        </tr>
+                        <tr data-src="http://media.brg.ua:8010/;stream.nsv" data-img="thumbs/dfm.jpg">
+                            <td class="name_tab">Dj FM</td>
+                            <td class="genres">DJ</td>
+                            <td class="countries">Украина</td>
+                        </tr>
+                        <tr data-src="http://stream1.lux.fm:8088" data-img="thumbs/luks.jpg">
+                            <td class="name_tab">Люкс FM</td>
+                            <td class="genres">POP</td>
+                            <td class="countries">Украина</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-heading">Section Heading</h1>
+                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </footer>
+</body>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/player.js"></script>
+</html>
